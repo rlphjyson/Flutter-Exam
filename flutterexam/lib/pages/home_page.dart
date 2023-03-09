@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutterexam/widgets/custom_appbar.dart';
 import 'package:flutterexam/widgets/first_content.dart';
+import 'package:flutterexam/widgets/second_content.dart';
+import 'package:flutterexam/widgets/third_content.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -14,7 +16,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return const Scaffold(
       appBar: CustomAppBarWeb(),
-      body: FirstContent(),
+      body: ThirdContent(),
     );
   }
 }

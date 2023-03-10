@@ -3,8 +3,6 @@ import 'package:flutterexam/common/buttons/buttons.dart';
 import 'package:flutterexam/widgets/product_sale.dart';
 import 'package:flutterexam/widgets/product_sale2.dart';
 
-import 'package:flutterexam/widgets/products_card.dart';
-
 class ThirdContent extends StatelessWidget {
   const ThirdContent({
     super.key,

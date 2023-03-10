@@ -11,8 +11,12 @@ class ProductsCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: MediaQuery.of(context).size.height * 0.585,
-      width: MediaQuery.of(context).size.width * 0.237,
+      height: MediaQuery.of(context).size.width < 600
+          ? MediaQuery.of(context).size.height * 0.35
+          : MediaQuery.of(context).size.height * 0.585,
+      width: MediaQuery.of(context).size.width < 600
+          ? MediaQuery.of(context).size.width * 0.5
+          : MediaQuery.of(context).size.width * 0.237,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(10),
         image: DecorationImage(
